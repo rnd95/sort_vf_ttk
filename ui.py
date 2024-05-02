@@ -35,7 +35,6 @@ def _style_code():
     if sys.platform == "win32":
        style.theme_use('winnative')    
     _style_code_ran = 1
-    print("in conjunction with Tcl version 8.6\nApr 17, 2024 12:54:17 PM EEST  platform: Windows NT\nBuild EXE May 01, 2024 09:40:59 AM")
     print("Список районов (папки)", ui_support.district_folders)
     
 class SortVF_UI:
